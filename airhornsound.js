@@ -4,8 +4,8 @@ function typingSoundPlugin() {}
 
 typingSoundPlugin.prototype.load = function() {
 	if($("#tsp-ts").length) return;
-	$("head").append('<audio id="tsp-ts"><source src="//raw.githubusercontent.com/hammerandchisel/airhornbot/master/audio/airhorn_default.wav"></audio>');
-	this.ts = $("#tsp-ts");
+	$("head").append('<audio id="tsp-ts"><source src="//raw.githubusercontent.com/ikim0106/trolling-keystrokes/master/yee.wav"></audio>');
+	this.ts = $("#tsp-ts"
 	if($("#tsp-bs").length) return;
 	$("head").append('<audio id="tsp-bs"><source src="//raw.githubusercontent.com/hammerandchisel/airhornbot/master/audio/airhorn_default.wav"></audio>');
 	this.bs = $("#tsp-bs");
