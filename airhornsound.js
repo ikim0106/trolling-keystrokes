@@ -46,7 +46,7 @@ typingSoundPlugin.prototype.getName = function() {
 };
 
 typingSoundPlugin.prototype.getDescription = function() {
-    return "Plays airhorn sounds when you type, git memed bitch";
+    return "Plays airhorn sounds when you type, git memed";
 };
 
 typingSoundPlugin.prototype.getVersion = function() {
